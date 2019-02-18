@@ -20,7 +20,7 @@ func ws(w http.ResponseWriter, r *http.Request) {
 			conn.Close()
 			return
 		}
-		log.Printf("msg: %s", string(msg))
+	
 	}
 }
 
